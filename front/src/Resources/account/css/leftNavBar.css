@@ -1,0 +1,52 @@
+.leftNavBar{
+    background: #0072BC;
+    padding: 15px 25px;
+    height: 99%;
+    width: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.leftNavBar ul li{
+    text-decoration: none;
+    list-style: none;
+    background-color: white;
+    margin: 10px auto;
+    padding: 3px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+.leftNavBar ul li a{
+    text-decoration: none;
+    color: #0072BC;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.subjectNavBar{
+    display: flex;
+    justify-content: center;
+}
+.subjectNavBar h3, p{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+@media screen and (min-width: 200px) and (max-width:1000px) {
+    .leftNavBar{
+        width: 100%;
+        margin: 0;
+        padding: 50px 0 100px 0;
+        justify-content: center;
+        text-align: center;
+        height: 80%;
+    }}
+    .subjectNavBar{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }

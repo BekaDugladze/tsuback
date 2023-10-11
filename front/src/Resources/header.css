@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 20px 50px;
+    border-bottom: #0072BC 2px solid;
+}
+header img {
+    height: 80px;
+    width: 80px;
+}
+.hOnes{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin: 10px 45px;
+}
+.hOnes h1{
+    color: #0072BC;
+    font-family: BPG Nino Mtavruli;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (min-width: 200px) and (max-width:650px){
+    .hOnes h1{
+        font-size: 20px;
+    }
+}

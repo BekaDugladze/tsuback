@@ -1,0 +1,128 @@
+.headerAcc img{
+    height: 70px;
+    width: 70px;
+    margin: auto 10px;
+}
+.headerAcc {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: #0072BC 2px solid;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    z-index: 99;
+}
+.headerAcc input{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #0072BC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: auto auto;
+    
+}
+.headerAcc h1{
+    color: #0072BC;
+    font-family: BPG Nino Mtavruli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.headerAccHashes{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    margin: auto;
+}
+.headerAccLogoH{
+    display: flex;
+    flex-direction: row;
+}
+.NavLinks-NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    flex-wrap: nowrap;
+}
+.NavLinks-NavBar a{
+    color: black;
+    margin-left: 30px;
+}
+.NavLinks-NavBar span{
+    transform: scale(1.5);
+}
+.child{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    align-items: center;
+    align-content: center;
+}
+#menu{
+    display: block;
+    background: none;
+    border: none;
+    scale: 1.1;
+    cursor: pointer;
+}
+#searchA{
+    display: none;
+}
+@media screen and (min-width: 200px) and (max-width:1000px) {
+    .headerAcc{
+        position: fixed;
+    }
+    .headerAcc input{
+        display: none;
+    }
+    .child{
+        justify-content: center;
+    }
+    .NavLinks-NavBar{
+        position: fixed;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        background: white;
+        justify-content: space-around;
+        margin: 0;
+        padding: 20px 0 ;
+        text-decoration: none;
+        border: none;
+        z-index: 99;
+    }
+    .NavLinks-NavBar a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        border: none;
+        text-decoration: none;
+    }
+    .NavLinks-NavBar span {
+        text-decoration: none;
+    }
+    #menu{
+        display: block;
+        margin: 0;
+        background: none;
+        border: none;
+        scale: 1.1;
+    }
+    #searchA{
+        display: block;
+        margin: 0;
+    }
+}

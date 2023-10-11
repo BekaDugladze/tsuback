@@ -1,0 +1,24 @@
+.leftNavBar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    z-index: 95;
+}
+.headerAccCss{
+    z-index: 99;
+}
+.messengerTabAcc{
+    position: absolute;
+    bottom: 0 !important;
+    right: 0px !important;
+    width: 100%;
+}
+#welcome{
+    display: flex;
+    position: fixed;
+    color: blue;
+    top: 400px;
+    left: 30%;
+    background-color: black;
+}

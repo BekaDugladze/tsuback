@@ -1,0 +1,65 @@
+.messengerTab{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 20%;
+    background-color: #0072BC;
+    height: auto;
+}
+.messengerTabButton{
+    width: 100%;
+    padding: 10px;
+    background: #0072BC;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+}
+.messengerTabButton span{
+    margin-left: 10px;
+}
+.messengerTabMessages{
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.messengerTabMessages button{
+    margin: 1px 0;
+    background: white;
+    color: #0072BC;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    cursor: pointer;
+    padding: 10px;
+}
+.messengerTab h3{
+    color: white;
+    text-align: center;
+    display: block;
+}
+@media screen and (min-width: 200px) and (max-width:1000px){
+    .messengerTab{
+        display: none;
+    }
+}

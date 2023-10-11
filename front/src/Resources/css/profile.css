@@ -1,0 +1,104 @@
+.profileInfo{
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.photoManage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#profileImg{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+}
+#uploadPhoto{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+#uploadImg{
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #0077B5;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+#photoLabel{
+    padding: 5px 10px;
+    border-radius: 25px;
+    border: #0077B5 1px solid;
+}
+#selectPhoto{
+    position: absolute;
+    opacity: 0;
+    width: 80px;
+    height: 35px;
+    z-index: 1;
+}
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+    margin: 0 15px;
+}
+#userInfo, #persoN, #maili{
+    color: #0077B5;
+    font-family: 'Lato';
+    font-weight: bolder;
+    margin: 5px 0;
+}
+#userInfo{
+    font-size: 27px;
+}
+#persoN{
+    font-size: 22px;
+}
+#maili{
+    font-size: 17px;
+}
+#Aemail{
+    text-decoration: none;
+    color: #0077B5;
+    font-family: 'Lato';
+}
+#logoutPro{
+    color: black;
+    margin-left: 30px;
+    transform: scale(1.5);
+    margin: 15px 40px;
+}
+.miniBar{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    flex-direction: column;
+}
+.miniBar ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.miniBar ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    margin: 10px auto;
+}
+.miniBar ul li button{
+    background-color: white;
+    padding: 3px 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.miniBar h1{
+    color: #0077B5;
+    display: flex;
+    justify-content: center;
+    margin: 25px auto;
+}
